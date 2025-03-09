@@ -1,0 +1,649 @@
+{"Rule ID": 504, "Level": 3, "Description": "Wazuh agent disconnected.", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 505, "Level": 3, "Description": "Wazuh agent removed.", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 506, "Level": 3, "Description": "Wazuh agent stopped.", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 518, "Level": 9, "Description": "Windows Adware/Spyware application found.", "MITRE IDs": ["T1072"]}
+{"Rule ID": 521, "Level": 11, "Description": "Possible kernel level rootkit", "MITRE IDs": ["T1014"]}
+{"Rule ID": 550, "Level": 7, "Description": "Integrity checksum changed.", "MITRE IDs": ["T1565.001"]}
+{"Rule ID": 553, "Level": 7, "Description": "File deleted.", "MITRE IDs": ["T1070.004", "T1485"]}
+{"Rule ID": 592, "Level": 8, "Description": "Log file size reduced.", "MITRE IDs": ["T1565.001"]}
+{"Rule ID": 593, "Level": 9, "Description": "Microsoft Event log cleared.", "MITRE IDs": ["T1070"]}
+{"Rule ID": 594, "Level": 5, "Description": "Registry Key Integrity Checksum Changed", "MITRE IDs": ["T1565.001", "T1112"]}
+{"Rule ID": 597, "Level": 5, "Description": "Registry Key Entry Deleted.", "MITRE IDs": ["T1070.004", "T1485", "T1112"]}
+{"Rule ID": 598, "Level": 5, "Description": "Registry Key Entry Added to the System", "MITRE IDs": ["T1112"]}
+{"Rule ID": 750, "Level": 5, "Description": "Registry Value Integrity Checksum Changed", "MITRE IDs": ["T1565.001", "T1112"]}
+{"Rule ID": 751, "Level": 5, "Description": "Registry Value Entry Deleted.", "MITRE IDs": ["T1070.004", "T1485", "T1112"]}
+{"Rule ID": 752, "Level": 5, "Description": "Registry Value Entry Added to the System", "MITRE IDs": ["T1112"]}
+{"Rule ID": 428, "Level": 10, "Description": "Wazuh API: Warning event - IP: $(srcip) blocked due to exceeded loging attemps.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 3102, "Level": 5, "Description": "sendmail: Sender domain does not have any valid", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3103, "Level": 6, "Description": "sendmail: Rejected by access list", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3104, "Level": 6, "Description": "sendmail: Attempt to use mail server as relay", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3105, "Level": 5, "Description": "sendmail: Sender domain is not found", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3106, "Level": 5, "Description": "sendmail: Sender address does not have domain", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3108, "Level": 6, "Description": "sendmail: Sendmail rejected due to pre-greeting.", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3151, "Level": 10, "Description": "sendmail: Sender domain has bogus MX record.", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3152, "Level": 6, "Description": "sendmail: Multiple attempts to send e-mail from a", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3153, "Level": 6, "Description": "sendmail: Multiple relaying attempts of spam.", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3154, "Level": 10, "Description": "sendmail: Multiple attempts to send e-mail", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3155, "Level": 10, "Description": "sendmail: Multiple attempts to send e-mail from", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3156, "Level": 10, "Description": "sendmail: Multiple rejected e-mails from same source ip.", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3158, "Level": 10, "Description": "sendmail: Multiple pre-greetings rejects.", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3191, "Level": 6, "Description": "sendmail: SMF-SAV sendmail milter unable to verify", "MITRE IDs": ["T1114"]}
+{"Rule ID": 3751, "Level": 6, "Description": "mailscanner: Multiple attempts of spam.", "MITRE IDs": ["T1110", "T1114"]}
+{"Rule ID": 3851, "Level": 9, "Description": "ms-exchange: Multiple e-mail attempts to an invalid account.", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3852, "Level": 9, "Description": "ms-exchange: Multiple e-mail 500 error code (spam).", "MITRE IDs": ["T1114", "T1499"]}
+{"Rule ID": 3910, "Level": 10, "Description": "Courier brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 3911, "Level": 10, "Description": "Courier: Multiple connection attempts from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 4325, "Level": 8, "Description": "PIX: ARP collision detected.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 4336, "Level": 8, "Description": "PIX: AAA (VPN) user locked out.", "MITRE IDs": ["T1133"]}
+{"Rule ID": 4337, "Level": 8, "Description": "PIX: The PIX is disallowing new connections.", "MITRE IDs": ["T1133"]}
+{"Rule ID": 4339, "Level": 8, "Description": "PIX: Firewall configuration deleted.", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 4340, "Level": 8, "Description": "PIX: Firewall configuration changed.", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 4342, "Level": 8, "Description": "PIX: User created or modified on the Firewall.", "MITRE IDs": ["T1562.004", "T1133"]}
+{"Rule ID": 4386, "Level": 10, "Description": "PIX: Multiple AAA (VPN) authentication failures.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 4505, "Level": 11, "Description": "Netscreen Erase sequence started.", "MITRE IDs": ["T1485"]}
+{"Rule ID": 4509, "Level": 8, "Description": "Netscreen firewall: configuration changed.", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 4550, "Level": 10, "Description": "Netscreen firewall: Multiple critical messages from", "MITRE IDs": ["T1499"]}
+{"Rule ID": 4551, "Level": 10, "Description": "Netscreen firewall: Multiple critical messages.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 4851, "Level": 10, "Description": "SonicWall: Multiple firewall error messages.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 5503, "Level": 5, "Description": "PAM: User login failed.", "MITRE IDs": ["T1110.001"]}
+{"Rule ID": 5551, "Level": 10, "Description": "PAM: Multiple failed logins in a small period of time.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5557, "Level": 5, "Description": "unix_chkpwd: Password check failed.", "MITRE IDs": ["T1110.001"]}
+{"Rule ID": 5601, "Level": 5, "Description": "telnetd: Connection refused by TCP Wrappers.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 5631, "Level": 10, "Description": "telnetd: Multiple connection attempts from same source", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5701, "Level": 8, "Description": "sshd: Possible attack on the ssh server (or version gathering).", "MITRE IDs": ["T1190"]}
+{"Rule ID": 5703, "Level": 10, "Description": "sshd: Possible breakin attempt (high number of reverse lookup errors).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5705, "Level": 10, "Description": "sshd: Possible scan or breakin attempt (high number of login timeouts).", "MITRE IDs": ["T1190", "T1110"]}
+{"Rule ID": 5706, "Level": 6, "Description": "sshd: insecure connection attempt (scan).", "MITRE IDs": ["T1021.004"]}
+{"Rule ID": 5707, "Level": 14, "Description": "sshd: OpenSSH challenge-response exploit.", "MITRE IDs": ["T1210", "T1068"]}
+{"Rule ID": 5710, "Level": 5, "Description": "sshd: Attempt to login using a non-existent user", "MITRE IDs": ["T1110.001", "T1021.004"]}
+{"Rule ID": 5712, "Level": 10, "Description": "sshd: brute force trying to get access to the system. Non existent user.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5714, "Level": 14, "Description": "sshd: SSH CRC-32 Compensation attack", "MITRE IDs": ["T1210"]}
+{"Rule ID": 5716, "Level": 5, "Description": "sshd: authentication failed.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5718, "Level": 5, "Description": "sshd: Attempt to login using a denied user.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5719, "Level": 10, "Description": "sshd: Multiple access attempts using a denied user.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5720, "Level": 10, "Description": "sshd: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5731, "Level": 6, "Description": "sshd: SSH Scanning.", "MITRE IDs": ["T1046"]}
+{"Rule ID": 5758, "Level": 8, "Description": "Maximum authentication attempts exceeded.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 5760, "Level": 5, "Description": "sshd: authentication failed.", "MITRE IDs": ["T1110.001", "T1021.004"]}
+{"Rule ID": 5763, "Level": 10, "Description": "sshd: brute force trying to get access to the system. Authentication failed.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 6250, "Level": 10, "Description": "Asterisk: Multiple failed logins (user enumeration in process).", "MITRE IDs": ["T1133"]}
+{"Rule ID": 6251, "Level": 10, "Description": "Asterisk: Multiple failed logins.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 6252, "Level": 10, "Description": "Asterisk: Extension enumeration.", "MITRE IDs": ["T1133"]}
+{"Rule ID": 6254, "Level": 10, "Description": "Asterisk: Extension IAX Enumeration.", "MITRE IDs": ["T1133"]}
+{"Rule ID": 6257, "Level": 10, "Description": "Asterisk: Multiple failed logins.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 6301, "Level": 2, "Description": "MS-DHCP: The log was started.", "MITRE IDs": ["T1543.003"]}
+{"Rule ID": 6302, "Level": 3, "Description": "MS-DHCP: The log was stopped.", "MITRE IDs": ["T1070.001", "T1543.003"]}
+{"Rule ID": 6303, "Level": 10, "Description": "MS-DHCP: The log was temporarily paused due to low disk space.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 6308, "Level": 12, "Description": "MS-DHCP: A lease request could not be satisfied because the scope's address pool was exhausted.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 6316, "Level": 3, "Description": "MS-DHCP: IP address cleanup operation has began.", "MITRE IDs": ["T1070"]}
+{"Rule ID": 6323, "Level": 12, "Description": "MS-DHCP: Packet dropped due to NAP policy.", "MITRE IDs": ["T1595"]}
+{"Rule ID": 6321, "Level": 12, "Description": "MS-DHCP: Codes above 50 are used for Rogue Server Detection information.", "MITRE IDs": ["T1557.002"]}
+{"Rule ID": 6360, "Level": 12, "Description": "MS-DHCP: Scope Full.", "MITRE IDs": ["T1498.001"]}
+{"Rule ID": 6361, "Level": 3, "Description": "MS-DHCP: Started.", "MITRE IDs": ["T1543.003"]}
+{"Rule ID": 6362, "Level": 7, "Description": "MS-DHCP: Stopped.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 6363, "Level": 10, "Description": "MS-DHCP: Audit log paused.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 6373, "Level": 12, "Description": "MS-DHCP: Service not authorized in AD.", "MITRE IDs": ["T1569.002"]}
+{"Rule ID": 6374, "Level": 3, "Description": "MS-DHCP: Service authorized in AD.", "MITRE IDs": ["T1543.003"]}
+{"Rule ID": 6376, "Level": 12, "Description": "MS-DHCP: Service has not determined if it is authorized in AD.", "MITRE IDs": ["T1569.002"]}
+{"Rule ID": 7209, "Level": 7, "Description": "Arpwatch: Possible arpspoofing attempt.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 9351, "Level": 10, "Description": "Horde brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 9352, "Level": 10, "Description": "Multiple Horde emergency messages.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 9403, "Level": 10, "Description": "Roundcube brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 9505, "Level": 7, "Description": "Wordpress Comment Flood Attempt.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 9551, "Level": 10, "Description": "Multiple wordpress authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 9611, "Level": 12, "Description": "cimserver: Compaq Insight Manager stopped.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 9750, "Level": 10, "Description": "Dovecot Multiple Authentication Failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 9751, "Level": 10, "Description": "Dovecot brute force attack (multiple auth failures).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 9820, "Level": 10, "Description": "vm-pop3d: POP3 brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 9951, "Level": 10, "Description": "vpopmail: brute force (multiple failed logins).", "MITRE IDs": ["T1110", "T1114"]}
+{"Rule ID": 9952, "Level": 10, "Description": "vpopmail: brute force (email harvesting).", "MITRE IDs": ["T1110", "T1114"]}
+{"Rule ID": 9953, "Level": 10, "Description": "vpopmail: brute force (empty password).", "MITRE IDs": ["T1110", "T1114"]}
+{"Rule ID": 11107, "Level": 5, "Description": "FTPD: Connection blocked by Tcp Wrappers.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 11109, "Level": 10, "Description": "FTPD: Multiple FTP failed login attempts.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11111, "Level": 9, "Description": "FTPD: Attempt to login with disabled account.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11207, "Level": 5, "Description": "ProFTPD: Connection refused by TCP Wrappers.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 11209, "Level": 14, "Description": "ProFTPD: Attempt to bypass firewall that can't adequately keep state of FTP traffic.", "MITRE IDs": ["T1071"]}
+{"Rule ID": 11210, "Level": 10, "Description": "ProFTPD: Multiple failed login attempts.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11218, "Level": 12, "Description": "ProFTPD: FTP process crashed.", "MITRE IDs": ["T1210"]}
+{"Rule ID": 11219, "Level": 12, "Description": "ProFTPD: FTP server Buffer overflow attempt.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 11251, "Level": 10, "Description": "ProFTPD: FTP brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11252, "Level": 10, "Description": "ProFTPD: Multiple connection attempts from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11253, "Level": 10, "Description": "ProFTPD: Multiple timed out logins from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11306, "Level": 10, "Description": "pure-ftpd: FTP brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11307, "Level": 10, "Description": "pure-ftpd: Multiple connection attempts from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11451, "Level": 10, "Description": "vsftpd: FTP brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11452, "Level": 10, "Description": "vsftpd: Multiple FTP connection attempts from", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11510, "Level": 10, "Description": "MS-FTP: FTP brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11511, "Level": 10, "Description": "MS-FTP: Multiple connection attempts from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 11512, "Level": 10, "Description": "MS-FTP: Multiple FTP errors from same source.", "MITRE IDs": ["T1021", "T1071.002"]}
+{"Rule ID": 12101, "Level": 12, "Description": "Invalid DNS packet. Possibility of attack.", "MITRE IDs": ["T1071", "T1499"]}
+{"Rule ID": 14151, "Level": 9, "Description": "racoon: Multiple failed VPN logins.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 14251, "Level": 10, "Description": "CiscoVPN: Multiple VPN authentication failures.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 7710, "Level": 9, "Description": "Microsoft Security Essentials - Service failed.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 7711, "Level": 9, "Description": "Microsoft Security Essentials - Real time protection failed.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 7716, "Level": 7, "Description": "Microsoft Security Essentials - Scan error. Scan has stopped.", "MITRE IDs": ["T1489"]}
+{"Rule ID": 19120, "Level": 8, "Description": "Virtual machine state changed to OFF.", "MITRE IDs": ["T1529"]}
+{"Rule ID": 19150, "Level": 10, "Description": "Multiple VMWare ESX warning messages.", "MITRE IDs": ["T1497"]}
+{"Rule ID": 19151, "Level": 10, "Description": "Multiple VMWare ESX error messages.", "MITRE IDs": ["T1497"]}
+{"Rule ID": 19152, "Level": 10, "Description": "Multiple VMWare ESX authentication failures.", "MITRE IDs": ["T1110", "T1497"]}
+{"Rule ID": 19153, "Level": 10, "Description": "Multiple VMWare ESX user authentication failures.", "MITRE IDs": ["T1110", "T1497"]}
+{"Rule ID": 31103, "Level": 7, "Description": "SQL injection attempt.", "MITRE IDs": ["T1190"]}
+{"Rule ID": 31104, "Level": 6, "Description": "Common web attack.", "MITRE IDs": ["T1055", "T1083", "T1190"]}
+{"Rule ID": 31105, "Level": 6, "Description": "XSS (Cross Site Scripting) attempt.", "MITRE IDs": ["T1059.007"]}
+{"Rule ID": 31106, "Level": 6, "Description": "A web attack returned code 200 (success).", "MITRE IDs": ["T1190"]}
+{"Rule ID": 31110, "Level": 6, "Description": "PHP CGI-bin vulnerability attempt.", "MITRE IDs": ["T1210"]}
+{"Rule ID": 31109, "Level": 6, "Description": "MSSQL Injection attempt (/ur.php, urchin.js)", "MITRE IDs": ["T1190"]}
+{"Rule ID": 31115, "Level": 13, "Description": "URL too long. Higher than allowed on most", "MITRE IDs": ["T1499"]}
+{"Rule ID": 31151, "Level": 10, "Description": "Multiple web server 400 error codes", "MITRE IDs": ["T1595.002"]}
+{"Rule ID": 31152, "Level": 10, "Description": "Multiple SQL injection attempts from same", "MITRE IDs": ["T1055"]}
+{"Rule ID": 31153, "Level": 10, "Description": "Multiple common web attacks from same source ip.", "MITRE IDs": ["T1055", "T1083"]}
+{"Rule ID": 31154, "Level": 10, "Description": "Multiple XSS (Cross Site Scripting) attempts", "MITRE IDs": ["T1059"]}
+{"Rule ID": 31161, "Level": 10, "Description": "Multiple web server 501 error code (Not Implemented).", "MITRE IDs": ["T1595.002"]}
+{"Rule ID": 31163, "Level": 10, "Description": "Multiple web server 503 error code (Service unavailable).", "MITRE IDs": ["T1498"]}
+{"Rule ID": 31164, "Level": 6, "Description": "SQL injection attempt.", "MITRE IDs": ["T1055", "T1190"]}
+{"Rule ID": 31165, "Level": 6, "Description": "SQL injection attempt.", "MITRE IDs": ["T1055", "T1190"]}
+{"Rule ID": 31166, "Level": 6, "Description": "Shellshock attack attempt", "MITRE IDs": ["T1068", "T1190"]}
+{"Rule ID": 31167, "Level": 6, "Description": "Shellshock attack attempt", "MITRE IDs": ["T1068", "T1190"]}
+{"Rule ID": 31168, "Level": 15, "Description": "Shellshock attack detected", "MITRE IDs": ["T1068", "T1190"]}
+{"Rule ID": 31169, "Level": 15, "Description": "Shellshock attack detected", "MITRE IDs": ["T1068", "T1190"]}
+{"Rule ID": 30107, "Level": 6, "Description": "Apache: Code Red attack.", "MITRE IDs": ["T1102"]}
+{"Rule ID": 30116, "Level": 10, "Description": "Apache: Multiple Invalid URI requests from same source.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 30119, "Level": 12, "Description": "ModSecurity: Multiple attempts blocked.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 30202, "Level": 10, "Description": "ModSecurity: Multiple attempts blocked.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 30306, "Level": 5, "Description": "Apache: Attempt to access forbidden directory index.", "MITRE IDs": ["T1190"]}
+{"Rule ID": 30307, "Level": 6, "Description": "Apache: Client sent malformed Host header. Possible Code Red attack.", "MITRE IDs": ["T1102"]}
+{"Rule ID": 30310, "Level": 10, "Description": "Apache: Multiple authentication failures with invalid user.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 30316, "Level": 10, "Description": "Apache: Multiple Invalid URI requests from same source.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 30411, "Level": 7, "Description": "ModSecurity: Rejected a query", "MITRE IDs": ["T1083"]}
+{"Rule ID": 31316, "Level": 10, "Description": "Nginx: Multiple web authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 31333, "Level": 7, "Description": "ModSecurity rejected a query", "MITRE IDs": ["T1083"]}
+{"Rule ID": 31335, "Level": 7, "Description": "NAXSI rejected a query", "MITRE IDs": ["T1083"]}
+{"Rule ID": 31411, "Level": 6, "Description": "PHP web attack.", "MITRE IDs": ["T1190", "T1071.001"]}
+{"Rule ID": 31413, "Level": 5, "Description": "PHP internal error (server out of space).", "MITRE IDs": ["T1561.001"]}
+{"Rule ID": 31501, "Level": 6, "Description": "WordPress Comment Spam (coming from a fake search engine UA).", "MITRE IDs": ["T1203"]}
+{"Rule ID": 31502, "Level": 6, "Description": "TimThumb vulnerability exploit attempt.", "MITRE IDs": ["T1212"]}
+{"Rule ID": 31503, "Level": 6, "Description": "osCommerce login.php bypass attempt.", "MITRE IDs": ["T1190"]}
+{"Rule ID": 31505, "Level": 6, "Description": "TimThumb backdoor access attempt.", "MITRE IDs": ["T1505.003"]}
+{"Rule ID": 31506, "Level": 6, "Description": "Cart.php directory transversal attempt.", "MITRE IDs": ["T1210", "T1190"]}
+{"Rule ID": 31507, "Level": 6, "Description": "MSSQL Injection attempt (ur.php, urchin.js).", "MITRE IDs": ["T1055"]}
+{"Rule ID": 31509, "Level": 3, "Description": "CMS (WordPress or Joomla) login attempt.", "MITRE IDs": ["T1110.001"]}
+{"Rule ID": 31510, "Level": 8, "Description": "CMS (WordPress or Joomla) brute force attempt.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 31512, "Level": 6, "Description": "Uploadify vulnerability exploit attempt.", "MITRE IDs": ["T1210"]}
+{"Rule ID": 31513, "Level": 6, "Description": "BBS delete.php exploit attempt.", "MITRE IDs": ["T1210"]}
+{"Rule ID": 31514, "Level": 6, "Description": "Simple shell.php command execution.", "MITRE IDs": ["T1505.003", "T1203"]}
+{"Rule ID": 31515, "Level": 6, "Description": "PHPMyAdmin scans (looking for setup.php).", "MITRE IDs": ["T1083"]}
+{"Rule ID": 31516, "Level": 6, "Description": "Suspicious URL access.", "MITRE IDs": ["T1055"]}
+{"Rule ID": 31533, "Level": 10, "Description": "High amount of POST requests in a small period of time (likely bot).", "MITRE IDs": ["T1498"]}
+{"Rule ID": 31550, "Level": 6, "Description": "Anomaly URL query (attempting to pass null termination).", "MITRE IDs": ["T1555.003"]}
+{"Rule ID": 50120, "Level": 12, "Description": "MySQL: shutdown message.", "MITRE IDs": ["T1529"]}
+{"Rule ID": 50126, "Level": 12, "Description": "MySQL: fatal error.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 50180, "Level": 10, "Description": "MySQL: Multiple errors.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 50182, "Level": 12, "Description": "MySQL: fatal error.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 50183, "Level": 10, "Description": "MySQL: Multiple errors.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 50520, "Level": 12, "Description": "PostgreSQL: Database shutdown message.", "MITRE IDs": ["T1529"]}
+{"Rule ID": 50521, "Level": 12, "Description": "PostgreSQL: Database shutdown message.", "MITRE IDs": ["T1529"]}
+{"Rule ID": 50580, "Level": 10, "Description": "PostgreSQL: Multiple database errors.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 50581, "Level": 10, "Description": "PostgreSQL: Multiple database errors.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 51007, "Level": 10, "Description": "Dropbear: brute force attempt.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 52510, "Level": 6, "Description": "Clamd stopped", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 80102, "Level": 10, "Description": "Netscaler: Multiple AAA failed to login the user", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80106, "Level": 10, "Description": "Netscaler: UI/API dangerous command", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 80112, "Level": 10, "Description": "Netscaler: Multiple non-http resource access denied", "MITRE IDs": ["T1133", "T1083"]}
+{"Rule ID": 80113, "Level": 5, "Description": "Netscaler: A http resource access is denied by policy engine", "MITRE IDs": ["T1133", "T1083"]}
+{"Rule ID": 80114, "Level": 10, "Description": "Netscaler: Multiple http resource access denied", "MITRE IDs": ["T1133", "T1083"]}
+{"Rule ID": 80115, "Level": 5, "Description": "Netscaler: SSLVPN session: client security check error", "MITRE IDs": ["T1133"]}
+{"Rule ID": 80116, "Level": 5, "Description": "Netscaler: SSLVPN session: client security expression evaluates to False", "MITRE IDs": ["T1133"]}
+{"Rule ID": 80137, "Level": 10, "Description": "Netscaler: Multiple AAATM http resource access denied", "MITRE IDs": ["T1499"]}
+{"Rule ID": 80140, "Level": 10, "Description": "Netscaler: Multiple UI/API login failed", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80252, "Level": 10, "Description": "AWS Cloudtrail: $(aws.eventSource) - $(aws.eventName) - high number of deleted objects.", "MITRE IDs": ["T1485"]}
+{"Rule ID": 80255, "Level": 10, "Description": "AWS Cloudtrail: $(aws.eventSource) - $(aws.eventName) - Possible break in attempt (high number of login attempts).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80371, "Level": 10, "Description": "AWS S3 multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80506, "Level": 10, "Description": "Serv-U: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80513, "Level": 3, "Description": "Serv-U: File deleted", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 80516, "Level": 3, "Description": "Serv-U: Directory deleted", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 80522, "Level": 4, "Description": "Serv-U: FTP/FTPS Permission denied", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80523, "Level": 4, "Description": "Serv-U: SFTP (SSH) Permission denied", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80524, "Level": 4, "Description": "Serv-U: HTTP/HTTPS Permission denied", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80712, "Level": 10, "Description": "Auditd: Execution of a file ended abnormally.", "MITRE IDs": ["T1204"]}
+{"Rule ID": 80714, "Level": 8, "Description": "Auditd: File or a directory access ended abnormally.", "MITRE IDs": ["T1203", "T1565.001"]}
+{"Rule ID": 80718, "Level": 3, "Description": "Auditd: User-space account addition ended abnormally.", "MITRE IDs": ["T1136"]}
+{"Rule ID": 80719, "Level": 3, "Description": "Auditd: User-space account deletion ended abnormally.", "MITRE IDs": ["T1531"]}
+{"Rule ID": 80721, "Level": 10, "Description": "Auditd: User becomes root.", "MITRE IDs": ["T1548.003"]}
+{"Rule ID": 80723, "Level": 5, "Description": "Auditd: Limit of failed login attempts reached.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 80740, "Level": 12, "Description": "Auditd: Replay attack detected.", "MITRE IDs": ["T1212"]}
+{"Rule ID": 80791, "Level": 3, "Description": "Audit: Deleted: $(audit.file.name).", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 81607, "Level": 7, "Description": "Fortigate: Multiple failed login events from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 81609, "Level": 8, "Description": "Fortigate: Multiple changed configuration events from same source.", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 81611, "Level": 7, "Description": "Fortigate: Multiple default tunneling setting events from same source.", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 81615, "Level": 7, "Description": "Fortigate: Multiple firewall SSL VPN failed login events from same source.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 44731, "Level": 0, "Description": "FortiAuth: Authentication event.", "MITRE IDs": ["T1102"]}
+{"Rule ID": 44733, "Level": 7, "Description": "FortiAuth: Authentication failed by user $(dstuser).", "MITRE IDs": ["T1102"]}
+{"Rule ID": 81710, "Level": 10, "Description": "HP 5500 EI: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 81803, "Level": 4, "Description": "OpenVPN: Connection Certificate Failed", "MITRE IDs": ["T1133"]}
+{"Rule ID": 81804, "Level": 4, "Description": "OpenVPN: Certificate failed - Possible revoked user", "MITRE IDs": ["T1133"]}
+{"Rule ID": 81904, "Level": 10, "Description": "RSA Authentication Manager: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 82405, "Level": 9, "Description": "Cisco eStreamer: APP-DETECT DNS request for potential malware", "MITRE IDs": ["T1071.004"]}
+{"Rule ID": 83200, "Level": 5, "Description": "MS Logs: The audit log was cleared.", "MITRE IDs": ["T1070"]}
+{"Rule ID": 83201, "Level": 5, "Description": "MS Logs: A Windows log file was cleared.", "MITRE IDs": ["T1070"]}
+{"Rule ID": 83202, "Level": 5, "Description": "The Event log service was started", "MITRE IDs": ["T1543.003"]}
+{"Rule ID": 85006, "Level": 10, "Description": "SQL Server: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 85502, "Level": 10, "Description": "Identity Guard: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 85760, "Level": 10, "Description": "MongoDB: Multiple authentication failures.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 86803, "Level": 7, "Description": "VShell user used the maximum number of password attempts.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 86806, "Level": 12, "Description": "VShell multiple connection attempts within 2 minute by a host in the deny file, potential DOS or brute force attempt.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 86807, "Level": 12, "Description": "VShell host has exceeded the number of failed login attempts and has been added to the Hosts Deny file.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 87001, "Level": 5, "Description": "Cylance: File $(cylance_events.filepath) is unsafe.", "MITRE IDs": ["T1203"]}
+{"Rule ID": 87002, "Level": 4, "Description": "Cylance: File $(cylance_events.filepath) is abnormal.", "MITRE IDs": ["T1203"]}
+{"Rule ID": 87003, "Level": 6, "Description": "Cylance: File $(cylance_events.filepath) is quarantined.", "MITRE IDs": ["T1203"]}
+{"Rule ID": 87053, "Level": 4, "Description": "Cylance Threat: File $(cylance_threats.file_path) is abnormal", "MITRE IDs": ["T1203"]}
+{"Rule ID": 87105, "Level": 12, "Description": "VirusTotal: Alert - $(virustotal.source.file) - $(virustotal.positives) engines detected this file", "MITRE IDs": ["T1203"]}
+{"Rule ID": 87202, "Level": 10, "Description": "Proxmox VE brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 87302, "Level": 10, "Description": "ownCloud brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 87303, "Level": 6, "Description": "ownCloud possible malicious request.", "MITRE IDs": ["T1203", "T1102"]}
+{"Rule ID": 87503, "Level": 10, "Description": "Exim: brute force attack (multiple auth failures).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 87702, "Level": 10, "Description": "Multiple pfSense firewall blocks events from same source.", "MITRE IDs": ["T1110"]}
+{"Rule ID": 24059, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): File $(osquery.columns.path) has setuid enabled", "MITRE IDs": ["T1548.001"]}
+{"Rule ID": 24061, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): ARP cache: Address $(osquery.columns.address) MAC $(osquery.columns.mac) Interface $(osquery.columns.interface)", "MITRE IDs": ["T1095"]}
+{"Rule ID": 24215, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): MaMi malware detected, infected DNS address $(osquery.columns.address)", "MITRE IDs": ["T1071"]}
+{"Rule ID": 24701, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): CCleaner Trojan Floxif detected on registry path $(osquery.columns.path)", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 24702, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): CCleaner Trojan Floxif detected on service $(osquery.columns.name) for user $(osquery.columns.user_account)", "MITRE IDs": ["T1569.002"]}
+{"Rule ID": 24705, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): unTabs Browser extension malware detected on path $(osquery.columns.install_location)", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24706, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): unTabs Chrome extension malware detected $(osquery.columns.name)", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24708, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): Sticky registry key backdoor detected for key $(osquery.columns.path)", "MITRE IDs": ["T1547.001", "T1112"]}
+{"Rule ID": 24709, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): conhost.exe process masquerading detected, path is $(osquery.columns.path)", "MITRE IDs": ["T1036"]}
+{"Rule ID": 24710, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): dllhost.exe process masquerading detected, path is $(osquery.columns.path)", "MITRE IDs": ["T1036"]}
+{"Rule ID": 24711, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): lsass.exe process masquerading detected, path is $(osquery.columns.path)", "MITRE IDs": ["T1036"]}
+{"Rule ID": 24712, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): services.exe process masquerading detected, the parent process is incorrect", "MITRE IDs": ["T1036"]}
+{"Rule ID": 24713, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): svchost.exe process masquerading detected, path $(osquery.columns.path) is incorrect", "MITRE IDs": ["T1036"]}
+{"Rule ID": 24714, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): svchost.exe process masquerading detected, the parent process is incorrect", "MITRE IDs": ["T1036"]}
+{"Rule ID": 24801, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): BetternetVPN Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24802, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): Chrometana Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24803, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): CopyFish Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24804, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): Giphy Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24805, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): HolaVPN Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24806, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): InfinityNewTab Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24807, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): SocialFixer Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24808, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): TouchVPN Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24809, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): WebDeveloper Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24810, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): WebPaint Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 24811, "Level": 4, "Description": "osquery: $(osquery.pack) $(osquery.subquery): MacOSInstallCore Chrome extension malware detected", "MITRE IDs": ["T1176"]}
+{"Rule ID": 87902, "Level": 5, "Description": "Docker: Container $(docker.Actor.Attributes.name) destroyed", "MITRE IDs": ["T1561.001"]}
+{"Rule ID": 87914, "Level": 7, "Description": "Docker: Volume destroyed in $(docker.Actor.Attributes.driver)", "MITRE IDs": ["T1070.004", "T1561.001"]}
+{"Rule ID": 87921, "Level": 7, "Description": "Docker: Container $(docker.Actor.Attributes.name) deleted", "MITRE IDs": ["T1070.004", "T1561.001"]}
+{"Rule ID": 87931, "Level": 5, "Description": "Docker: Network $(docker.Actor.Attributes.name) deleted", "MITRE IDs": ["T1070.004", "T1485"]}
+{"Rule ID": 87941, "Level": 3, "Description": "Docker: Secret '$(docker.Actor.Attributes.name)' removed", "MITRE IDs": ["T1070.004", "T1485"]}
+{"Rule ID": 87946, "Level": 3, "Description": "Docker: Plugin $(docker.Actor.Attributes.name) removed", "MITRE IDs": ["T1070.004", "T1485"]}
+{"Rule ID": 87957, "Level": 5, "Description": "Docker: Service $(docker.Actor.Attributes.name) deleted", "MITRE IDs": ["T1070.004", "T1485"]}
+{"Rule ID": 18655, "Level": 4, "Description": "IPsec dropped an inbound packet that failed an integrity check", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 18656, "Level": 8, "Description": "IPsec dropped an inbound packet that failed a replay check", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 18657, "Level": 8, "Description": "IPsec dropped an inbound clear text packet that should have been secured", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 18658, "Level": 4, "Description": "IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI)", "MITRE IDs": ["T1095"]}
+{"Rule ID": 18659, "Level": 7, "Description": "During Main Mode negotiation, IPsec received an invalid negotiation packet", "MITRE IDs": ["T1095"]}
+{"Rule ID": 18660, "Level": 7, "Description": "During Quick Mode negotiation, IPsec received an invalid negotiation packet", "MITRE IDs": ["T1095"]}
+{"Rule ID": 18661, "Level": 7, "Description": "During Extended Mode negotiation, IPsec received an invalid negotiation packet", "MITRE IDs": ["T1095"]}
+{"Rule ID": 18662, "Level": 8, "Description": "An IPsec negotiation with a remote computer failed because the IKE and AuthIP IPsec Keying Modules (IKEEXT) service is not started", "MITRE IDs": ["T1095", "T1489"]}
+{"Rule ID": 18664, "Level": 8, "Description": "IPsec Services failed to initialize RPC server. IPsec Services could not be started", "MITRE IDs": ["T1489"]}
+{"Rule ID": 18665, "Level": 8, "Description": "IPsec Services has experienced a critical failure and has been shut down", "MITRE IDs": ["T1529"]}
+{"Rule ID": 18667, "Level": 8, "Description": "IPsec Services was disabled", "MITRE IDs": ["T1489"]}
+{"Rule ID": 90501, "Level": 7, "Description": "User initiated shutdown", "MITRE IDs": ["T1529"]}
+{"Rule ID": 90509, "Level": 7, "Description": "Active protection disabled", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 90537, "Level": 6, "Description": "An item has been deleted from quarantine", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 64011, "Level": 8, "Description": "ASA: ARP collision detected.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 64020, "Level": 8, "Description": "ASA: AAA (VPN) user locked out.", "MITRE IDs": ["T1133"]}
+{"Rule ID": 64024, "Level": 8, "Description": "ASA: Firewall configuration changed.", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 64027, "Level": 8, "Description": "ASA: User created or modified on the Firewall.", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 64033, "Level": 10, "Description": "ASA: Multiple AAA (VPN) authentication failures.", "MITRE IDs": ["T1110", "T1133"]}
+{"Rule ID": 88203, "Level": 10, "Description": "NextCloud brute force (multiple failed logins).", "MITRE IDs": ["T1110"]}
+{"Rule ID": 64223, "Level": 9, "Description": "Reject: Prohibit a packet from passing. Send an ICMP destination-unreachable back to the source host.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 64238, "Level": 7, "Description": "Replace Malicious code: Malicious code in the connection was replaced.", "MITRE IDs": ["T1001"]}
+{"Rule ID": 65051, "Level": 3, "Description": "GCP pub/sub topic subscription created.", "MITRE IDs": ["T1530"]}
+{"Rule ID": 65052, "Level": 3, "Description": "GCP pub/sub topic created.", "MITRE IDs": ["T1530"]}
+{"Rule ID": 65053, "Level": 3, "Description": "GCP firewall rule created.", "MITRE IDs": ["T1562"]}
+{"Rule ID": 65054, "Level": 3, "Description": "GCP firewall rule deleted.", "MITRE IDs": ["T1562.007"]}
+{"Rule ID": 65055, "Level": 3, "Description": "GCP firewall rule modified.", "MITRE IDs": ["T1562.007"]}
+{"Rule ID": 65056, "Level": 3, "Description": "GCP logging bucket deleted.", "MITRE IDs": ["T1562.008"]}
+{"Rule ID": 65057, "Level": 3, "Description": "GCP logging sink deleted.", "MITRE IDs": ["T1562.008"]}
+{"Rule ID": 65058, "Level": 3, "Description": "GCP pub/sub subscription deleted.", "MITRE IDs": ["T1562"]}
+{"Rule ID": 65059, "Level": 3, "Description": "GCP pub/sub topic deleted.", "MITRE IDs": ["T1562"]}
+{"Rule ID": 65060, "Level": 3, "Description": "GCP storage bucket configuration modified.", "MITRE IDs": ["T1222"]}
+{"Rule ID": 65061, "Level": 3, "Description": "GCP storage bucket permissions modified.", "MITRE IDs": ["T1222"]}
+{"Rule ID": 65062, "Level": 3, "Description": "GCP logging sink modified.", "MITRE IDs": ["T1537"]}
+{"Rule ID": 65063, "Level": 3, "Description": "GCP IAM role deleted.", "MITRE IDs": ["T1531"]}
+{"Rule ID": 65064, "Level": 3, "Description": "GCP service account deleted.", "MITRE IDs": ["T1531"]}
+{"Rule ID": 65065, "Level": 3, "Description": "GCP service account disabled.", "MITRE IDs": ["T1531"]}
+{"Rule ID": 65066, "Level": 3, "Description": "GCP storage bucket deleted.", "MITRE IDs": ["T1485"]}
+{"Rule ID": 65070, "Level": 3, "Description": "GCP new service account created.", "MITRE IDs": ["T1136.003"]}
+{"Rule ID": 65071, "Level": 3, "Description": "GCP new key is created for a service account.", "MITRE IDs": ["T1098.001"]}
+{"Rule ID": 65072, "Level": 3, "Description": "GCP identity and access management (IAM) service account key deleted.", "MITRE IDs": ["T1531"]}
+{"Rule ID": 65073, "Level": 3, "Description": "GCP identity and access management (IAM) custom role created.", "MITRE IDs": ["T1098.001"]}
+{"Rule ID": 65261, "Level": 9, "Description": "F5 BigIP: Virtual server is during high-demand traffic event or under Denial of Service (DoS) attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65262, "Level": 13, "Description": "F5 BigIP: Platform entered software SYN cookie protection mode. The system has detected a SYN flood attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65263, "Level": 9, "Description": "F5 BigIP: Stopped throttling traffic likely generated by a DoS attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65264, "Level": 9, "Description": "F5 BigIP: SYN cookie threshold is reached. This might be due to a normal spike in traffic or an attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65265, "Level": 13, "Description": "F5 BigIP: Detected a syncookie DOS attack. Activated hardware syncookie protection mode on the HSB.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65266, "Level": 13, "Description": "F5 BigIP: Ongoing DDos attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65267, "Level": 11, "Description": "F5 BigIP: Created/Updated (AFM) BDoS dynamic signature by the AFM bdosd daemon during an attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65268, "Level": 10, "Description": "F5 BigIP: Number of allowed new connections per second for pool member has been exceeded. This is due to a normal spike in traffic or an attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65269, "Level": 6, "Description": "F5 BigIP: Syncookie DOS attack has stopped.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65270, "Level": 10, "Description": "F5 BigIP: Syncookie counter exceeded vip threshold. This is due to a normal spike in traffic or an attack.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65271, "Level": 2, "Description": "F5 BigIP: SYN cookie state exited. The platform returns to a normal operation state.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65272, "Level": 4, "Description": "F5 BigIP: SSLv2 is no longer supported and has been removed due to numerous vulnerabilities.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65275, "Level": 10, "Description": "F5 BigIP: Too many SIP media sessions have been established for the current configuration.", "MITRE IDs": ["T1498"]}
+{"Rule ID": 65276, "Level": 10, "Description": "F5 BigIP: Critical error for TMM. It restarts. Attempts to reconnect will be made after that.", "MITRE IDs": ["T1499"]}
+{"Rule ID": 65295, "Level": 13, "Description": "F5 BigIP ASM: SQL injection detected: $(code)", "MITRE IDs": ["T1190"]}
+{"Rule ID": 64508, "Level": 6, "Description": "Palo Alto Traffic: Session dropped  on $(device_name) from $(source_address) to $(destination_address). Reason: $(session_end_reason). Action: $(action).", "MITRE IDs": ["T1072", "T1190"]}
+{"Rule ID": 91542, "Level": 3, "Description": "Office 365: Data loss protection (DLP) events in SharePoint and OneDrive for Business.", "MITRE IDs": ["T1213.002"]}
+{"Rule ID": 91544, "Level": 3, "Description": "Office 365: SharePoint sharing events.", "MITRE IDs": ["T1213.002"]}
+{"Rule ID": 91558, "Level": 3, "Description": "Office 365: Microsoft Power Automate (formerly called Microsoft Flow) events.", "MITRE IDs": ["T1137.006"]}
+{"Rule ID": 91561, "Level": 3, "Description": "Office 365: Events related to DLP classification in SharePoint.", "MITRE IDs": ["T1213.002"]}
+{"Rule ID": 91704, "Level": 6, "Description": "Office 365: Blocked sharing invitation", "MITRE IDs": ["T1136"]}
+{"Rule ID": 91707, "Level": 4, "Description": "Office 365: Sent message", "MITRE IDs": ["T1114.003"]}
+{"Rule ID": 91708, "Level": 6, "Description": "Office 365: Sent message using different permissions", "MITRE IDs": ["T1114.003"]}
+{"Rule ID": 91715, "Level": 6, "Description": "Office 365: Changed eDiscovery administrator membership", "MITRE IDs": ["T1526"]}
+{"Rule ID": 91716, "Level": 6, "Description": "Office 365: Created eDiscovery administrator", "MITRE IDs": ["T1526"]}
+{"Rule ID": 91717, "Level": 6, "Description": "Office 365: Created eDiscovery case", "MITRE IDs": ["T1526"]}
+{"Rule ID": 91718, "Level": 6, "Description": "Office 365: Created content search", "MITRE IDs": ["T1526"]}
+{"Rule ID": 91724, "Level": 10, "Description": "Office 365: Suspicious download activity by user: $(office_365.UserId)", "MITRE IDs": ["T1213.002"]}
+{"Rule ID": 91725, "Level": 10, "Description": "Office 365: User $(office_365.UserId) got FullAccess permissions in Exchange", "MITRE IDs": ["T1098.002"]}
+{"Rule ID": 92000, "Level": 4, "Description": "Scripting interpreter spawned a new process", "MITRE IDs": ["T1059.005"]}
+{"Rule ID": 92001, "Level": 6, "Description": "Scripting interpreter spawned new scripting interpreter", "MITRE IDs": ["T1059"]}
+{"Rule ID": 92002, "Level": 6, "Description": "Scripting interpreter spawned Windows command shell instance", "MITRE IDs": ["T1059.003"]}
+{"Rule ID": 92003, "Level": 6, "Description": "Scripting interpreter spawned a process from a suspicious path", "MITRE IDs": ["T1059"]}
+{"Rule ID": 92004, "Level": 4, "Description": "Powershell process spawned Windows command shell instance", "MITRE IDs": ["T1059.003"]}
+{"Rule ID": 92005, "Level": 4, "Description": "Command shell started script with /c modifier", "MITRE IDs": ["T1059"]}
+{"Rule ID": 92006, "Level": 6, "Description": "Powershell script compiling code using CSC.exe, possible malware drop", "MITRE IDs": ["T1027.004"]}
+{"Rule ID": 92007, "Level": 3, "Description": "Possible tampering on Windows Defender configuration by Powershell command", "MITRE IDs": ["T1562"]}
+{"Rule ID": 92008, "Level": 12, "Description": "Windows Defender real time monitoring was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92009, "Level": 13, "Description": "Windows Defender Intrusion prevention system was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92010, "Level": 13, "Description": "Windows Defender downloaded file scanning was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92011, "Level": 13, "Description": "Windows Defender script scanning was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92012, "Level": 13, "Description": "Windows Defender Controlled folder access was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92013, "Level": 13, "Description": "Windows Defender network protection was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92014, "Level": 13, "Description": "Microsoft Active Protection Service (MAPS) was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92015, "Level": 13, "Description": "Windows Defender sample submit was disabled by Powershell command", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 92016, "Level": 13, "Description": "Masqueraded CertUtil.exe with a different file name. Possible use to decode malware", "MITRE IDs": ["T1036.003", "T1140"]}
+{"Rule ID": 92017, "Level": 13, "Description": "Masqueraded CertUtil.exe used to decode binary file", "MITRE IDs": ["T1036.003", "T1140"]}
+{"Rule ID": 92018, "Level": 13, "Description": "CertUtil.exe used to decode binary file", "MITRE IDs": ["T1140"]}
+{"Rule ID": 92019, "Level": 13, "Description": "Windows Defender executed from suspicious path, possible DLL side-loading", "MITRE IDs": ["T1574.002"]}
+{"Rule ID": 92020, "Level": 6, "Description": "A file was copied to other system over SSH using pscp.exe", "MITRE IDs": ["T1021.004"]}
+{"Rule ID": 92021, "Level": 3, "Description": "Powershell was used to delete files or directories", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 92022, "Level": 3, "Description": "Gathered user information from Remote Desktop Service sessions", "MITRE IDs": ["T1033"]}
+{"Rule ID": 92023, "Level": 8, "Description": "Suspicious Powershell activity with VSS and Windows SAM hive", "MITRE IDs": ["T1003.002", "T1059.001"]}
+{"Rule ID": 92024, "Level": 14, "Description": "Powershell used to copy SAM hive from VSS", "MITRE IDs": ["T1003.002", "T1059.001"]}
+{"Rule ID": 92025, "Level": 0, "Description": "Reg.exe execution", "MITRE IDs": ["T1112", "T1012"]}
+{"Rule ID": 92026, "Level": 14, "Description": "Reg.exe used to dump SAM hive", "MITRE IDs": ["T1003.002"]}
+{"Rule ID": 92027, "Level": 4, "Description": "Powershell process spawned powershell instance", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92028, "Level": 0, "Description": "Powershell executed script", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92029, "Level": 6, "Description": "Powershell executed script from suspicious location", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92030, "Level": 3, "Description": "Gathered user information from Remote Desktop Service sessions", "MITRE IDs": ["T1033"]}
+{"Rule ID": 92031, "Level": 3, "Description": "Discovery activity executed", "MITRE IDs": ["T1087"]}
+{"Rule ID": 92032, "Level": 3, "Description": "Suspicious Windows cmd shell execution", "MITRE IDs": ["T1087", "T1059.003"]}
+{"Rule ID": 92033, "Level": 3, "Description": "Discovery activity spawned via powershell execution", "MITRE IDs": ["T1087", "T1059.001"]}
+{"Rule ID": 92034, "Level": 3, "Description": "Discovery activity spawned via cmd shell execution", "MITRE IDs": ["T1135"]}
+{"Rule ID": 92035, "Level": 3, "Description": "A net.exe domain discovery command was executed", "MITRE IDs": ["T1135", "T1059.003"]}
+{"Rule ID": 92036, "Level": 3, "Description": "A $(win.eventdata.image) binary was started by a Windows cmd shell", "MITRE IDs": ["T1059.003", "T1574.001"]}
+{"Rule ID": 92037, "Level": 3, "Description": "A net.exe connection to a remote resource was started by $(win.eventdata.parentImage)", "MITRE IDs": ["T1567"]}
+{"Rule ID": 92038, "Level": 12, "Description": "A connection to cloud resource was started by $(win.eventdata.parentImage)", "MITRE IDs": ["T1102", "T1567.002"]}
+{"Rule ID": 92039, "Level": 3, "Description": "A net.exe account discovery command was initiated", "MITRE IDs": ["T1087"]}
+{"Rule ID": 92040, "Level": 12, "Description": "$(win.eventdata.originalFileName) executed a user creation command", "MITRE IDs": ["T1136.001"]}
+{"Rule ID": 92041, "Level": 10, "Description": "Value added to registry key has Base64-like pattern", "MITRE IDs": ["T1027", "T1112"]}
+{"Rule ID": 92043, "Level": 10, "Description": "Netsh used to add firewall rule", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 92044, "Level": 14, "Description": "Netsh used to add firewall rule referencing port 5900, usually used for VNC", "MITRE IDs": ["T1562.004"]}
+{"Rule ID": 92045, "Level": 14, "Description": "Reg.exe modified registry using .reg file in suspicious location", "MITRE IDs": ["T1112"]}
+{"Rule ID": 92046, "Level": 12, "Description": "Possible use of fodhelper.exe used to bypass UAC and execute of malicious software", "MITRE IDs": ["T1548.002"]}
+{"Rule ID": 92047, "Level": 12, "Description": "Office application started mshta.exe", "MITRE IDs": ["T1218.005"]}
+{"Rule ID": 92048, "Level": 15, "Description": "Office application started mshta.exe and executed scripting command", "MITRE IDs": ["T1218.005", "T1059"]}
+{"Rule ID": 92049, "Level": 12, "Description": "Verclsid.exe may have been used to execute COM payload", "MITRE IDs": ["T1218.012"]}
+{"Rule ID": 92050, "Level": 12, "Description": "Office application invoked Verclsid.exe, possible COM payload execution", "MITRE IDs": ["T1218.012", "T1559.001"]}
+{"Rule ID": 92051, "Level": 12, "Description": "Executed a renamed copy of wscript.exe", "MITRE IDs": ["T1036.003", "T1059.005"]}
+{"Rule ID": 92052, "Level": 4, "Description": "Windows command prompt started by an abnormal process", "MITRE IDs": ["T1059.003"]}
+{"Rule ID": 92053, "Level": 12, "Description": "Detected a suspicious process launched with a jscript engine signature", "MITRE IDs": ["T1059.003"]}
+{"Rule ID": 92054, "Level": 14, "Description": "Suspicious execution of .js file by $(win.eventdata.image)", "MITRE IDs": ["T1059.007"]}
+{"Rule ID": 92055, "Level": 12, "Description": "Known auto-elevated utility $(win.eventdata.originalFileName) may have been used to bypass UAC", "MITRE IDs": ["T1548.002"]}
+{"Rule ID": 92056, "Level": 14, "Description": "Powershell process invoked known auto-elevated utility $(win.eventdata.originalFileName), may have been used to bypass UAC", "MITRE IDs": ["T1548.002"]}
+{"Rule ID": 92057, "Level": 12, "Description": "Powershell.exe spawned a powershell process which executed a base64 encoded command", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92058, "Level": 12, "Description": "Application Compatibility Database launched", "MITRE IDs": ["T1546.011"]}
+{"Rule ID": 92059, "Level": 14, "Description": "Possible Shimming. Application Compatibility Database launched from an encoded powershell command", "MITRE IDs": ["T1059.001", "T1546.011"]}
+{"Rule ID": 92060, "Level": 15, "Description": "Suspicious process (right to left override character) spawned a subprocess", "MITRE IDs": ["T1036.002"]}
+{"Rule ID": 92061, "Level": 3, "Description": "Windows backup and restore tool $(win.eventdata.originalFileName) launched via $(win.eventdata.parentImage) with $(win.eventdata.integrityLevel) integrity level", "MITRE IDs": ["T1548", "T1059.003"]}
+{"Rule ID": 92062, "Level": 14, "Description": "Powershell launched with a $(win.eventdata.integrityLevel) integrity level by $(win.eventdata.parentImage)", "MITRE IDs": ["T1548", "T1548.002"]}
+{"Rule ID": 92063, "Level": 6, "Description": "File deletion by $(win.eventdata.originalFileName). Command: $(win.eventdata.commandLine)", "MITRE IDs": ["T1070.004"]}
+{"Rule ID": 92064, "Level": 15, "Description": "Executed suspicious process with right to left override character in binary file, possible malicious file masquerading", "MITRE IDs": ["T1036.002", "T1204.002"]}
+{"Rule ID": 92065, "Level": 6, "Description": "Powershell.exe launched by binary $(win.eventdata.parentImage) in a suspicious location", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92066, "Level": 4, "Description": "$(win.eventdata.image) binary in a suspicious location launched by $(win.eventdata.parentImage)", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92067, "Level": 6, "Description": "$(win.eventdata.image) launched by $(win.eventdata.parentImage) executed a compressed file creation command", "MITRE IDs": ["T1560.001"]}
+{"Rule ID": 92068, "Level": 3, "Description": "PSEXEC was used to execute: $(win.eventdata.commandLine)", "MITRE IDs": ["T1569.002"]}
+{"Rule ID": 92069, "Level": 0, "Description": "Windows management instrumentation started a process", "MITRE IDs": ["T1047"]}
+{"Rule ID": 92070, "Level": 6, "Description": "Windows management instrumentation (WMI) created a powershell process", "MITRE IDs": ["T1047", "T1059.001"]}
+{"Rule ID": 92071, "Level": 12, "Description": "A powershell process created by WMI executed a base64 encoded command", "MITRE IDs": ["T1047", "T1059.001"]}
+{"Rule ID": 92072, "Level": 4, "Description": "Certutil decoding a file", "MITRE IDs": ["T1140"]}
+{"Rule ID": 92073, "Level": 6, "Description": "Powershell executing certutil to decode a file", "MITRE IDs": ["T1140"]}
+{"Rule ID": 92074, "Level": 12, "Description": "$(win.eventdata.originalFileName) launched with commands to create a binary file", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92075, "Level": 12, "Description": "$(win.eventdata.originalFileName) launched with commands to create a binary file", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92076, "Level": 6, "Description": "Rundll32 executing suspicious .lock file, possible persistence tactic", "MITRE IDs": ["T1546", "T1218"]}
+{"Rule ID": 92077, "Level": 10, "Description": "WMI command was used for AV product discovery", "MITRE IDs": ["T1518.001"]}
+{"Rule ID": 92078, "Level": 10, "Description": "Cmd.exe executed from non-standard directory, may be related to link execution from mounted ISO file", "MITRE IDs": ["T1204.002"]}
+{"Rule ID": 92079, "Level": 10, "Description": "Rundll32 executed from non-standard directory, may be related to link execution from mounted ISO file", "MITRE IDs": ["T1204.002", "T1218.011"]}
+{"Rule ID": 92080, "Level": 7, "Description": "System information discovery activity detected", "MITRE IDs": ["T1082", "T1047"]}
+{"Rule ID": 92081, "Level": 15, "Description": "Rundll32 executing file with suspicious extension", "MITRE IDs": ["T1218.011"]}
+{"Rule ID": 92101, "Level": 0, "Description": "Powershell process communicating over TCP", "MITRE IDs": ["T1095"]}
+{"Rule ID": 92102, "Level": 6, "Description": "Suspicious DCOM/RPC activity from Powershell process", "MITRE IDs": ["T1110"]}
+{"Rule ID": 92103, "Level": 6, "Description": "LDAP activity from Powershell process, possible remote system discovery", "MITRE IDs": ["T1018"]}
+{"Rule ID": 92104, "Level": 15, "Description": "Suspicious binary created network connection to $(win.eventdata.destinationIp):$(win.eventdata.destinationPort)", "MITRE IDs": ["T1095"]}
+{"Rule ID": 92105, "Level": 3, "Description": "Possible suspicious access to Windows admin shares", "MITRE IDs": ["T1021.002"]}
+{"Rule ID": 92106, "Level": 3, "Description": "Windows System process activity over SMB port - Possible suspicious access to Windows admin shares", "MITRE IDs": ["T1021.002"]}
+{"Rule ID": 92107, "Level": 4, "Description": "Script generated suspicious network activity over TCP protocol", "MITRE IDs": ["T1095"]}
+{"Rule ID": 92108, "Level": 0, "Description": "Detected RDP port network activity from $(win.eventdata.sourceIp) to $(win.eventdata.destinationIp)", "MITRE IDs": ["T1021.001"]}
+{"Rule ID": 92109, "Level": 15, "Description": "Network activity using RDP port from-to loopback address, possible exploit using reverse tunneling", "MITRE IDs": ["T1021.001"]}
+{"Rule ID": 92110, "Level": 4, "Description": "Detected WinRM activity from $(win.eventdata.sourceIp) to $(win.eventdata.destinationIp)", "MITRE IDs": ["T1021.006"]}
+{"Rule ID": 92151, "Level": 12, "Description": "Binary loaded PowerShell automation library - Possible unmanaged Powershell execution by suspicious process", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 92152, "Level": 6, "Description": "Printer spooler service loaded a dll file. Possible PrintNightmare exploit: CVE-2021-34527", "MITRE IDs": ["T1210"]}
+{"Rule ID": 92153, "Level": 10, "Description": "Suspicious process loaded VaultCli.dll module. Possible use to dump stored passwords.", "MITRE IDs": ["T1555"]}
+{"Rule ID": 92154, "Level": 4, "Description": "Process loaded taskschd.dll module. May be used to create delayed malware execution", "MITRE IDs": ["T1053.005"]}
+{"Rule ID": 92155, "Level": 12, "Description": "Mshta loaded taskschd.dll module. May be used to create delayed malware execution", "MITRE IDs": ["T1053.005"]}
+{"Rule ID": 92156, "Level": 12, "Description": "Office application loaded vbeui.dll module. May be used to execute scripting code", "MITRE IDs": ["T1059.005"]}
+{"Rule ID": 92157, "Level": 6, "Description": "An executable - $(win.eventdata.image) - loaded $(win.eventdata.imageLoaded) from the Temp directory.", "MITRE IDs": ["T1546.011"]}
+{"Rule ID": 92200, "Level": 6, "Description": "Scripting file created under Windows Temp or User folder", "MITRE IDs": ["T1059", "T1105"]}
+{"Rule ID": 92201, "Level": 9, "Description": "$(win.eventdata.image) created a new scripting file under Windows Temp or User data folder", "MITRE IDs": ["T1105", "T1059"]}
+{"Rule ID": 92202, "Level": 6, "Description": "Executable dropped in Windows root folder by $(win.eventdata.image) process. Possible abuse of Windows admin shares", "MITRE IDs": ["T1570"]}
+{"Rule ID": 92203, "Level": 6, "Description": "Executable file created by powershell: $(win.eventdata.targetFilename)", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92204, "Level": 9, "Description": "Powershell process created executable file in AppData temp folder", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92205, "Level": 9, "Description": "Powershell process created an executable file in Windows root folder", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92206, "Level": 12, "Description": "DLL file created by printer spool service, possible malware binary drop from PrintNightmare exploit", "MITRE IDs": ["T1574.010"]}
+{"Rule ID": 92207, "Level": 12, "Description": "Executable file dropped in Users\\Public folder", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92208, "Level": 15, "Description": "Executable file dropped in Users\\Public folder by SSH enabled copy software", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92209, "Level": 6, "Description": "Suspicious registry modification file created in Users\\Public folder", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92210, "Level": 6, "Description": "Suspicious file compression activity in Users\\Public folder", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92211, "Level": 14, "Description": "Suspicious executable file creation by rundll32: $(win.eventdata.targetFilename)", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92212, "Level": 14, "Description": "Suspicious file compression activity by powershell: $(win.eventdata.targetFilename)", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92213, "Level": 15, "Description": "Executable file dropped in folder commonly used by malware", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92214, "Level": 15, "Description": "Suspicious file created by Microsoft Office process: $(win.eventdata.image) created $(win.eventdata.targetFilename)", "MITRE IDs": ["T1027"]}
+{"Rule ID": 92215, "Level": 12, "Description": "Executable file created by mshta: $(win.eventdata.targetFilename)", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92216, "Level": 0, "Description": "Powershell created a new temporary file $(win.eventdata.targetFilename) under Windows Temp or User folder", "MITRE IDs": ["T1105", "T1059.001"]}
+{"Rule ID": 92217, "Level": 6, "Description": "Executable dropped in Windows root folder", "MITRE IDs": ["T1570"]}
+{"Rule ID": 92218, "Level": 6, "Description": "Possible abuse of Windows admin shares by binary dropped in Windows root folder by system process", "MITRE IDs": ["T1570"]}
+{"Rule ID": 92219, "Level": 6, "Description": "Possible DLL search order hijack by $(win.eventdata.targetFilename) created in Windows root folder", "MITRE IDs": ["T1574.001", "T1574.002"]}
+{"Rule ID": 92220, "Level": 6, "Description": "$(win.eventdata.targetFilename) binary created in Windows root folder by WinRM process $(win.eventdata.image)", "MITRE IDs": ["T1574", "T1570"]}
+{"Rule ID": 92221, "Level": 3, "Description": "A screensaver executable $(win.eventdata.image) created $(win.eventdata.targetFilename)", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92222, "Level": 3, "Description": "An executable $(win.eventdata.image) created a file in a Windows folder", "MITRE IDs": ["T1036"]}
+{"Rule ID": 92223, "Level": 3, "Description": "PFX file $(win.eventdata.targetFilename) was created", "MITRE IDs": ["T1552"]}
+{"Rule ID": 92224, "Level": 6, "Description": "Powershell process created PFX file $(win.eventdata.targetFilename). Possible private key or certificate exportation", "MITRE IDs": ["T1552.004"]}
+{"Rule ID": 92225, "Level": 6, "Description": "An executable file has been copied to Windows start-up folder", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 92226, "Level": 14, "Description": "Powershell process has copied an executable file to Windows start-up folder", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 92227, "Level": 6, "Description": "$(win.eventdata.image) process created a dll binary $(win.eventdata.fileName)", "MITRE IDs": ["T1105"]}
+{"Rule ID": 92650, "Level": 12, "Description": "New Windows Service Created to start from windows root path. Suspicious event as the binary may have been dropped using Windows Admin Shares.", "MITRE IDs": ["T1021.002", "T1569.002"]}
+{"Rule ID": 92652, "Level": 6, "Description": "Successful Remote Logon Detected - User:$(win.eventdata.subjectDomainName)\\$(win.eventdata.targetUserName) - NTLM authentication, possible pass-the-hash attack.", "MITRE IDs": ["T1550.002", "T1078.002"]}
+{"Rule ID": 92653, "Level": 3, "Description": "User: $(win.eventdata.subjectDomainName)\\$(win.eventdata.targetUserName) logged using Remote Desktop Connection (RDP) from ip:$(win.eventdata.ipAddress).", "MITRE IDs": ["T1021.001", "T1078.002"]}
+{"Rule ID": 92654, "Level": 6, "Description": "WMI query for System Information Discovery.", "MITRE IDs": ["T1082", "T1047"]}
+{"Rule ID": 92655, "Level": 15, "Description": "Printer driver failed to load, possible remote code execution using PrinterNightmare exploit: CVE-2021-34527.", "MITRE IDs": ["T1210", "T1547.012"]}
+{"Rule ID": 92656, "Level": 15, "Description": "User: $(win.eventdata.subjectDomainName)\\$(win.eventdata.targetUserName) logged using Remote Desktop Connection (RDP) from loopback address, possible exploit over reverse tunneling using stolen credentials.", "MITRE IDs": ["T1021.001", "T1078.002"]}
+{"Rule ID": 92657, "Level": 6, "Description": "Successful Remote Logon Detected - User:$(win.eventdata.subjectDomainName)\\$(win.eventdata.targetUserName) - NTLM authentication, possible pass-the-hash attack - Possible RDP connection. Verify that $(win.eventdata.workstationName) is allowed to perform RDP connections", "MITRE IDs": ["T1550.002", "T1078.002", "T1021.001"]}
+{"Rule ID": 92600, "Level": 0, "Description": "Executed python script.", "MITRE IDs": ["T1059.006"]}
+{"Rule ID": 92601, "Level": 6, "Description": "Executed python script from /tmp/ folder.", "MITRE IDs": ["T1059.006"]}
+{"Rule ID": 92602, "Level": 12, "Description": "Suspicious python script matches Impacket signature, possible use of stolen credentials or pass the hash attack.", "MITRE IDs": ["T1059.006", "T1550.002"]}
+{"Rule ID": 92603, "Level": 6, "Description": "A file was copied to this system over SSH using SCP.", "MITRE IDs": ["T1021.004"]}
+{"Rule ID": 92604, "Level": 6, "Description": "Processes running for all users were queried with ps command.", "MITRE IDs": ["T1057"]}
+{"Rule ID": 92605, "Level": 6, "Description": "Executed recursive query of all files using ls command.", "MITRE IDs": ["T1083"]}
+{"Rule ID": 92300, "Level": 0, "Description": "Added registry content to be executed on next logon", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 92301, "Level": 12, "Description": "Suspicious file extension detected in registry ASEP to be executed on next logon", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 92302, "Level": 6, "Description": "Registry entry to be executed on next logon was modified using command line application reg.exe", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 92303, "Level": 12, "Description": "Registry entry to be executed on next logon points to a remote access tool", "MITRE IDs": ["T1547.001"]}
+{"Rule ID": 92304, "Level": 6, "Description": "Modified registry key associated to UAC bypass by auto-elevated processes", "MITRE IDs": ["T1548.002", "T1112"]}
+{"Rule ID": 92305, "Level": 12, "Description": "Command interpreter added to registry key associated to UAC bypass by auto-elevated processes", "MITRE IDs": ["T1548.002", "T1112"]}
+{"Rule ID": 92306, "Level": 12, "Description": "$(win.eventdata.image) added to the registry a subkey associated with UAC bypass by auto-elevated processes", "MITRE IDs": ["T1548.002", "T1112"]}
+{"Rule ID": 92307, "Level": 3, "Description": "Evidence of new service creation found in registry under $(win.eventdata.targetObject) binary is: $(win.eventdata.details)", "MITRE IDs": ["T1543.003"]}
+{"Rule ID": 92308, "Level": 3, "Description": "Possible COM Hijacking evidence found in registry under $(win.eventdata.targetObject) binary is: $(win.eventdata.details)", "MITRE IDs": ["T1546.015"]}
+{"Rule ID": 92309, "Level": 15, "Description": "COM Hijacking evidence found in registry under $(win.eventdata.targetObject) suspicious binary is: $(win.eventdata.details)", "MITRE IDs": ["T1546.015"]}
+{"Rule ID": 92400, "Level": 12, "Description": "Possible code injection on explorer.exe by $(win.eventdata.sourceImage)", "MITRE IDs": ["T1055"]}
+{"Rule ID": 92401, "Level": 12, "Description": "Possible code injection on mstsc.exe (Windows RDP utility) by $(win.eventdata.sourceImage)", "MITRE IDs": ["T1055"]}
+{"Rule ID": 92402, "Level": 3, "Description": "Possible code injection by $(win.eventdata.sourceImage) on $(win.eventdata.targetImage)", "MITRE IDs": ["T1055.003", "T1055.012"]}
+{"Rule ID": 92403, "Level": 12, "Description": "Local Security Authority Subsystem Service (LSASS) process was accessed by $(win.eventdata.sourceImage), possible code injection for credential dumping", "MITRE IDs": ["T1055"]}
+{"Rule ID": 91510, "Level": 8, "Description": "FTD: ARP collision detected.", "MITRE IDs": ["T1095"]}
+{"Rule ID": 91518, "Level": 8, "Description": "FTD: AAA (VPN) user locked out.", "MITRE IDs": ["T1133"]}
+{"Rule ID": 91522, "Level": 8, "Description": "FTD: Firewall configuration changed.", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 91525, "Level": 8, "Description": "FTD: User created or modified on the Firewall.", "MITRE IDs": ["T1562.001"]}
+{"Rule ID": 91803, "Level": 14, "Description": "Screen capture method invoked from PowerShell script.", "MITRE IDs": ["T1113"]}
+{"Rule ID": 91805, "Level": 3, "Description": "Executed Powershell script \"Get-ADComputer\" executed.", "MITRE IDs": ["T1018"]}
+{"Rule ID": 91806, "Level": 3, "Description": "Powershell script \"Get-NetUser executed\".", "MITRE IDs": ["T1087.002"]}
+{"Rule ID": 91808, "Level": 3, "Description": "Powershell script queried registry value", "MITRE IDs": ["T1012"]}
+{"Rule ID": 91809, "Level": 10, "Description": "Powershell script may be using Base64 decoding method", "MITRE IDs": ["T1140"]}
+{"Rule ID": 91810, "Level": 10, "Description": "Powershell script may be executing suspicious code with CreateThread API", "MITRE IDs": ["T1106"]}
+{"Rule ID": 91811, "Level": 4, "Description": "Powershell script executed \"Expand-Archive\"", "MITRE IDs": ["T1105"]}
+{"Rule ID": 91812, "Level": 0, "Description": "Powershell script executed an object deletion", "MITRE IDs": ["T1112"]}
+{"Rule ID": 91813, "Level": 3, "Description": "Powershell script deleted a registry key from an object", "MITRE IDs": ["T1112"]}
+{"Rule ID": 91814, "Level": 4, "Description": "Powershell script deleted an auto start entry registry key", "MITRE IDs": ["T1112"]}
+{"Rule ID": 91815, "Level": 4, "Description": "Powershell executing process discovery", "MITRE IDs": ["T1057"]}
+{"Rule ID": 91816, "Level": 4, "Description": "Powershell script querying system environment variables", "MITRE IDs": ["T1082"]}
+{"Rule ID": 91817, "Level": 4, "Description": "Powershell script executed \"ConvertSidToStringSid\" API. Possible domain SID enumeration", "MITRE IDs": ["T1033", "T1082"]}
+{"Rule ID": 91818, "Level": 4, "Description": "Powershell script executed \"New-Service\" command", "MITRE IDs": ["T1543.003"]}
+{"Rule ID": 91819, "Level": 4, "Description": "Powershell script searching filesystem", "MITRE IDs": ["T1083"]}
+{"Rule ID": 91820, "Level": 4, "Description": "Powershell script recursively collected files from a filesystem search", "MITRE IDs": ["T1083", "T1119"]}
+{"Rule ID": 91821, "Level": 4, "Description": "Powershell script created a compressed file from results of filesystem search", "MITRE IDs": ["T1083", "T1074.001"]}
+{"Rule ID": 91822, "Level": 12, "Description": "Powershell script used \"Invoke-command\" cmdlet to execute sub script", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 91823, "Level": 14, "Description": "Powershell script used \"Invoke-command\" cmdlet to execute code on remote computer", "MITRE IDs": ["T1059.001", "T1021.006"]}
+{"Rule ID": 91824, "Level": 4, "Description": "Powershell collected clipboard data", "MITRE IDs": ["T1115"]}
+{"Rule ID": 91825, "Level": 4, "Description": "Powershell executed file compression", "MITRE IDs": ["T1560.001"]}
+{"Rule ID": 91826, "Level": 4, "Description": "Powershell executed \"Copy-Item\"", "MITRE IDs": ["T1560"]}
+{"Rule ID": 91827, "Level": 4, "Description": "Powershell executed \"Set-WmiInstance\". Possible creation or update of a WMI instance", "MITRE IDs": ["T1560"]}
+{"Rule ID": 91828, "Level": 6, "Description": "Powershell executed a creation or update of a WMI instance with encoded values", "MITRE IDs": ["T1027"]}
+{"Rule ID": 91829, "Level": 4, "Description": "Powershell executed \"GetComputerNameEx\". Possible system configuration discovery", "MITRE IDs": ["T1082"]}
+{"Rule ID": 91830, "Level": 4, "Description": "Powershell executed \"NetWkstaGetInfo\". Possible network configuration discovery", "MITRE IDs": ["T1016"]}
+{"Rule ID": 91831, "Level": 4, "Description": "Powershell executed \"GetUserNameEx\". Possible user information discovery", "MITRE IDs": ["T1033"]}
+{"Rule ID": 91832, "Level": 4, "Description": "Powershell executed \"CreateToolhelp32Snapshot\". Possible process discovery", "MITRE IDs": ["T1057"]}
+{"Rule ID": 91833, "Level": 3, "Description": "Possible discovery activity: Powershell executed \"Get-ChildItem\" command on a system folder", "MITRE IDs": ["T1083"]}
+{"Rule ID": 91834, "Level": 6, "Description": "Powershell executed a command that modifies file timestamp, possible timestomp attempt", "MITRE IDs": ["T1070.006"]}
+{"Rule ID": 91835, "Level": 6, "Description": "Powershell tampering with WMI AntiVirusProduct class - Antivirus Software discovery", "MITRE IDs": ["T1518.001"]}
+{"Rule ID": 91836, "Level": 3, "Description": "Powershell tampering software installation info on system registry", "MITRE IDs": ["T1012"]}
+{"Rule ID": 91837, "Level": 4, "Description": "Powershell executed \"Get-Content -Stream or Invoke-Expresion\". Possible string execution as code", "MITRE IDs": ["T1059.001"]}
+{"Rule ID": 91838, "Level": 4, "Description": "Powershell queried Win32_BIOS. Possible sandbox detection activity", "MITRE IDs": ["T1497", "T1082"]}
+{"Rule ID": 91839, "Level": 4, "Description": "Powershell queried Win32_ComputerSystem. Possible system discovery activity", "MITRE IDs": ["T1497", "T1033", "T1016"]}
+{"Rule ID": 91840, "Level": 4, "Description": "Powershell queried Win32_PnPEntity. Possible devices/adapter discovery activity", "MITRE IDs": ["T1120"]}
+{"Rule ID": 91841, "Level": 4, "Description": "Powershell queried Win32_Process. Possible process discovery activity", "MITRE IDs": ["T1057"]}
+{"Rule ID": 91842, "Level": 4, "Description": "Powershell executed \"Get-Item -Path\". Script trying to see files in path", "MITRE IDs": ["T1083"]}
+{"Rule ID": 91843, "Level": 3, "Description": "Powershell executed \"New-ItemProperty -Path\". Possible addition of new item to registry", "MITRE IDs": ["T1059.001", "T1112"]}
+{"Rule ID": 91844, "Level": 12, "Description": "Possible addition of new item to Windows startup registry", "MITRE IDs": ["T1547.001", "T1059.001", "T1112"]}
+{"Rule ID": 91845, "Level": 10, "Description": "Outlook add-in was loaded by powershell, possible use for email collection", "MITRE IDs": ["T1114.001"]}
+{"Rule ID": 91846, "Level": 10, "Description": "Powershell used .NET compression method, possible data extraction operation", "MITRE IDs": ["T1560.001"]}
+{"Rule ID": 92900, "Level": 12, "Description": "Lsass process was accessed by $(win.eventdata.sourceImage) with read permissions, possible credential dump", "MITRE IDs": ["T1003.001"]}
+{"Rule ID": 92910, "Level": 12, "Description": "Explorer process was accessed by $(win.eventdata.sourceImage), possible process injection", "MITRE IDs": ["T1055"]}
+{"Rule ID": 92920, "Level": 14, "Description": "Windows Remote Dektop utility process was accessed by $(win.eventdata.sourceImage), possible process injection", "MITRE IDs": ["T1055"]}
+{"Rule ID": 89501, "Level": 12, "Description": "WmiConsumerEvent created, possible persistence tactic", "MITRE IDs": ["T1546.003"]}
+{"Rule ID": 89502, "Level": 14, "Description": "WmiConsumerEvent created, possible persistence tactic using command-executing binaries", "MITRE IDs": ["T1546.003"]}
+{"Rule ID": 67014, "Level": 3, "Description": "Task Scheduler: $(win.eventdata.message).", "MITRE IDs": ["T1053.005"]}
+{"Rule ID": 67015, "Level": 3, "Description": "Task Scheduler: $(win.eventdata.message).", "MITRE IDs": ["T1053.005"]}
+{"Rule ID": 67016, "Level": 3, "Description": "Task Scheduler: $(win.eventdata.message).", "MITRE IDs": ["T1053.005"]}
+{"Rule ID": 67017, "Level": 3, "Description": "A network share was accessed.", "MITRE IDs": ["T1021.002"]}
+{"Rule ID": 67018, "Level": 3, "Description": "System shutdown initiated.", "MITRE IDs": ["T1529"]}
+{"Rule ID": 67028, "Level": 3, "Description": "Special privileges assigned to new logon.", "MITRE IDs": ["T1484"]}
+{"Rule ID": 67029, "Level": 3, "Description": "RDP: $(win.system.message).", "MITRE IDs": ["T1021.001"]}
+{"Rule ID": 89600, "Level": 5, "Description": "$(application) has been granted permission to $(service) at $(time).", "MITRE IDs": ["T1222.002"]}
+{"Rule ID": 89601, "Level": 5, "Description": "$(application) has been denied permission to $(service) at $(time).", "MITRE IDs": ["T1222.002"]}
+{"Rule ID": 89606, "Level": 5, "Description": "Attempt to connect to screen sharing with username $(dstuser) from $(ip_address) failed.", "MITRE IDs": ["T1021", "T1078"]}
+{"Rule ID": 89607, "Level": 3, "Description": "Attempt to connect to screen sharing with username $(dstuser) from $(ip_address) succeeded.", "MITRE IDs": ["T1021", "T1078"]}
+{"Rule ID": 99001, "Level": 3, "Description": "Amazon Security Lake - CloudTrail rules grouped.", "MITRE IDs": ["T1048.001"]}
+{"Rule ID": 99002, "Level": 3, "Description": "Amazon Security Lake - Amazon VPC rules grouped.", "MITRE IDs": ["T1048.001"]}
+{"Rule ID": 99003, "Level": 3, "Description": "Amazon Security Lake - Route 53 rules grouped.", "MITRE IDs": ["T1048.001"]}
+{"Rule ID": 99020, "Level": 3, "Description": "Amazon Security Lake - CloudTrail - Failed API Operation \"$(api.operation)\" with error \"$(api.response.error)\" from $(src_endpoint.ip) by user $(identity.user.name).", "MITRE IDs": ["T1098.003", "T1078.004"]}
+{"Rule ID": 99021, "Level": 3, "Description": "Amazon Security Lake - CloudTrail - Too many failed API Operations \"$(api.response.error)\" from $(src_endpoint.ip) ip.", "MITRE IDs": ["T1098.003", "T1078.004"]}
+{"Rule ID": 99022, "Level": 3, "Description": "Amazon Security Lake - CloudTrail - Successful API Operation \"$(api.operation)\" by user $(identity.user.name) from $(src_endpoint.ip) ip.", "MITRE IDs": ["T1098.003", "T1078.004"]}
+{"Rule ID": 99023, "Level": 3, "Description": "Amazon Security Lake - CloudTrail - Successful API Operation \"$(api.operation)\".", "MITRE IDs": ["T1098.003", "T1078.004"]}
+{"Rule ID": 99024, "Level": 3, "Description": "Amazon Security Lake - CloudTrail - Successful API Operation \"$(api.operation)\" from $(src_endpoint.ip) ip.", "MITRE IDs": ["T1098.003", "T1078.004"]}
+{"Rule ID": 99025, "Level": 3, "Description": "Amazon Security Lake - CloudTrail - Successful API Operation \"$(api.operation)\" by user $(identity.user.name).", "MITRE IDs": ["T1098.003", "T1078.004"]}
+{"Rule ID": 99026, "Level": 5, "Description": "Credentials access: Attempt to retrieve EC2 credentials.", "MITRE IDs": ["T1530"]}
+{"Rule ID": 99027, "Level": 12, "Description": "Credentials access: Multiple attempts to retrieve EC2 credentials.", "MITRE IDs": ["T1530"]}
+{"Rule ID": 99028, "Level": 12, "Description": "Security group with inbound rules allowing \"Unknown cidrIp\" on port \"Unknown port\" detected.", "MITRE IDs": ["T1562.007", "T1105", "T1041"]}
+{"Rule ID": 99029, "Level": 12, "Description": "Possible IAM Role backdooring: IAM role granted from an external account.", "MITRE IDs": ["T1098.001"]}
+{"Rule ID": 99030, "Level": 12, "Description": "Possible disruption of CloudTrail Logging: Management events logging disabled with an event selector.", "MITRE IDs": ["T1562.008"]}
+{"Rule ID": 99051, "Level": 3, "Description": "Amazon Security Lake - VPC - SSH connection established.", "MITRE IDs": ["T1021.004"]}
+{"Rule ID": 99052, "Level": 3, "Description": "Amazon Security Lake - VPC - SSH connection established.", "MITRE IDs": ["T1021.004"]}
+{"Rule ID": 99053, "Level": 3, "Description": "Amazon Security Lake - VPC - RDP connection established.", "MITRE IDs": ["T1021.001"]}
+{"Rule ID": 99054, "Level": 3, "Description": "Amazon Security Lake - VPC - RDP connection established.", "MITRE IDs": ["T1021.001"]}
+{"Rule ID": 99055, "Level": 3, "Description": "Amazon Security Lake - VPC - SMB connection established.", "MITRE IDs": ["T1021.002"]}
+{"Rule ID": 99056, "Level": 3, "Description": "Amazon Security Lake - VPC: SMB connection established.", "MITRE IDs": ["T1021.002"]}
+{"Rule ID": 99057, "Level": 3, "Description": "Amazon Security Lake - VPC - DCE/RPC connection established.", "MITRE IDs": ["T1021.003"]}
+{"Rule ID": 99058, "Level": 3, "Description": "Amazon Security Lake - VPC - DCE/RPC connection established.", "MITRE IDs": ["T1021.003"]}
+{"Rule ID": 99080, "Level": 3, "Description": "Amazon Security Lake - Route 53 - Succsessful DNS request [$(query.type)] \"$(query.hostname)\" from $(src_endpoint.ip).", "MITRE IDs": ["T1071.004", "T1584.002"]}
+{"Rule ID": 99081, "Level": 3, "Description": "Amazon Security Lake - Route 53 - Failed DNS request for a Non-Existent Domain [$(query.type)] \"$(query.hostname)\" from $(src_endpoint.ip).", "MITRE IDs": ["T1071.004", "T1584.002"]}
+{"Rule ID": 99082, "Level": 3, "Description": "Amazon Security Lake - Route 53 - Failed DNS request [$(query.type)] \"$(query.hostname)\" from $(src_endpoint.ip).", "MITRE IDs": ["T1071.004", "T1584.002"]}
+{"Rule ID": 99522, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially communicating with a C2 server have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0011"]}
+{"Rule ID": 99523, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially performing data collection or data discovery have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0009"]}
+{"Rule ID": 99524, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially involved in stealing credentials have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0006"]}
+{"Rule ID": 99525, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially performing defense evasion have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0005"]}
+{"Rule ID": 99526, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially performing network discovery or account enumeration have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0007"]}
+{"Rule ID": 99527, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially performing data exfiltration have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0010"]}
+{"Rule ID": 99528, "Level": 6, "Description": "MS Graph message: Indicators of potential vulnerability exploitation on the system have been detected. Check the system for signs of infection.", "MITRE IDs": ["T1587.004"]}
+{"Rule ID": 99529, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially performing malicious code execution have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0002"]}
+{"Rule ID": 99530, "Level": 3, "Description": "MS Graph message: Indicators that the system is potentially experiencing intrusion attempts have been detected. This alert is commonly caused by phishing emails. Check the system for signs of infection.", "MITRE IDs": ["TA0001"]}
+{"Rule ID": 99531, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially establishing unauthorized internal connections have been detected. Check the systems for signs of infection.", "MITRE IDs": ["TA0008"]}
+{"Rule ID": 99532, "Level": 12, "Description": "MS Graph message: Indicators that the system is potentially infected with malware have been detected. Check the system for signs of infection.", "MITRE IDs": ["T1204.001", "T1204.002", "T1204.003", "T1587.001", "T1588.001"]}
+{"Rule ID": 99533, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially experiencing persistence establishment attempts have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0003"]}
+{"Rule ID": 99534, "Level": 6, "Description": "MS Graph message: Indicators that the system is potentially performing unauthorized permission elevation have been detected. Check the system for signs of infection.", "MITRE IDs": ["TA0004"]}
+{"Rule ID": 99535, "Level": 12, "Description": "MS Graph Message: Indicators that the system is potentially affected by ransomware have been detected. Check the system for signs of infection.", "MITRE IDs": ["T1486"]}
+{"Rule ID": 99543, "Level": 12, "Description": "MS Graph message: Indicators that the system is communicating with a C2 server have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0011"]}
+{"Rule ID": 99544, "Level": 6, "Description": "MS Graph message: Indicators that the system is performing data collection or data discovery have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0009"]}
+{"Rule ID": 99545, "Level": 12, "Description": "MS Graph message: Indicators that the system is involved in stealing credentials have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0006"]}
+{"Rule ID": 99546, "Level": 12, "Description": "MS Graph message: Indicators that the system is performing defense evasion have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0005"]}
+{"Rule ID": 99547, "Level": 6, "Description": "MS Graph message: Indicators that the system is performing network discovery or account enumeration have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0007"]}
+{"Rule ID": 99548, "Level": 12, "Description": "MS Graph message: Indicators that the system is performing data exfiltration have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0010"]}
+{"Rule ID": 99549, "Level": 12, "Description": "MS Graph message: Indicators of vulnerability exploitation on the system have been detected. However, this alert is unlikely to indciate an APT. Check the system for signs of infection.", "MITRE IDs": ["T1587.004"]}
+{"Rule ID": 99550, "Level": 12, "Description": "MS Graph message: Indicators that the system is performing malicious code execution have been detected. However, this alert is unlikely to indciate an APT. Check the system for signs of infection.", "MITRE IDs": ["TA0002"]}
+{"Rule ID": 99551, "Level": 6, "Description": "MS Graph message: Indicators that the system is affected by intrusion attempts have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0001"]}
+{"Rule ID": 99552, "Level": 12, "Description": "MS Graph message: Indicators that the system is establishing unauthorized internal connections have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the systems for signs of infection.", "MITRE IDs": ["TA0008"]}
+{"Rule ID": 99553, "Level": 12, "Description": "MS Graph message: Indicators that the system is affected by persistence establishment attempts have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0003"]}
+{"Rule ID": 99554, "Level": 12, "Description": "MS Graph message: Indicators that the system is performing unauthorized permission elevation have been detected. This alert usually originates from common malware and threats, rather than APT activity. Check the system for signs of infection.", "MITRE IDs": ["TA0004"]}
+{"Rule ID": 99562, "Level": 13, "Description": "MS Graph message: Indicators that the system is communicating with a C2 server have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0011"]}
+{"Rule ID": 99563, "Level": 13, "Description": "MS Graph message: Indicators that the system is performing data collection or data discovery have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0009"]}
+{"Rule ID": 99564, "Level": 13, "Description": "MS Graph message: Indicators that the system is involved in stealing credentials have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0006"]}
+{"Rule ID": 99565, "Level": 13, "Description": "MS Graph message: Indicators that the system is performing defense evasion have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0005"]}
+{"Rule ID": 99566, "Level": 12, "Description": "MS Graph message: Indicators that the system is performing network discovery or account enumeration have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0007"]}
+{"Rule ID": 99567, "Level": 13, "Description": "MS Graph message: Indicators that the system is performing data exfiltration have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0010"]}
+{"Rule ID": 99568, "Level": 13, "Description": "MS Graph message: Indicators of vulnerability exploitation on the system have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["T1587.004"]}
+{"Rule ID": 99569, "Level": 13, "Description": "MS Graph message: Indicators that the system is performing malicious code execution have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0002"]}
+{"Rule ID": 99570, "Level": 12, "Description": "MS Graph message: Indicators that the system is affected by intrusion attempts have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0001"]}
+{"Rule ID": 99571, "Level": 13, "Description": "MS Graph message: Indicators that the system is establishing unauthorized internal connections have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0008"]}
+{"Rule ID": 99572, "Level": 13, "Description": "MS Graph message: Indicators that the system is affected by persistence establishment attempts have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0003"]}
+{"Rule ID": 99573, "Level": 13, "Description": "MS Graph message: Indicators that the system is performing unauthorized permission elevation have been detected. This alert may be indicative of an APT.", "MITRE IDs": ["TA0004"]}
+{"Rule ID": 99581, "Level": 15, "Description": "MS Graph message: Indicators that the system is communicating with a C2 server have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0011"]}
+{"Rule ID": 99582, "Level": 15, "Description": "MS Graph message: Indicators that the system is performing data collection or data discovery have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0009"]}
+{"Rule ID": 99583, "Level": 15, "Description": "MS Graph message: Indicators that the system is involved in stealing credentials have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0006"]}
+{"Rule ID": 99584, "Level": 14, "Description": "MS Graph message: Indicators that the system is performing defense evasion have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0005"]}
+{"Rule ID": 99585, "Level": 14, "Description": "MS Graph message: Indicators that the system is performing network discovery or account enumeration have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0007"]}
+{"Rule ID": 99586, "Level": 15, "Description": "MS Graph message: Indicators that the system is performing data exfiltration have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0010"]}
+{"Rule ID": 99587, "Level": 15, "Description": "MS Graph message: Indicators of vulnerability exploitation on the system have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["T1587.004"]}
+{"Rule ID": 99588, "Level": 15, "Description": "MS Graph message: Indicators that the system is performing malicious code execution have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0002"]}
+{"Rule ID": 99589, "Level": 14, "Description": "MS Graph message: Indicators that the system is affected by intrusion attempts have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0001"]}
+{"Rule ID": 99590, "Level": 15, "Description": "MS Graph message: Indicators that the system is establishing unauthorized internal connections have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0008"]}
+{"Rule ID": 99591, "Level": 15, "Description": "MS Graph message: Indicators that the system is infected with malware have been detected.", "MITRE IDs": ["T1204.001", "T1204.002", "T1204.003", "T1587.001", "T1588.001"]}
+{"Rule ID": 99592, "Level": 15, "Description": "MS Graph message: Indicators that the system is affected by persistence establishment attempts have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0003"]}
+{"Rule ID": 99593, "Level": 15, "Description": "MS Graph message: Indicators that the system is performing unauthorized permission elevation have been detected. This alert is very likely to indicate an APT.", "MITRE IDs": ["TA0004"]}
+{"Rule ID": 99594, "Level": 15, "Description": "MS Graph message: Indicators that the system is infected with ransomware have been detected. Requires immediate action.", "MITRE IDs": ["T1486"]}
+{"Rule ID": 99607, "Level": 15, "Description": "MS Graph message: Malware has been detected in the environment. This is a true positive alert.", "MITRE IDs": ["T1204.001", "T1204.002", "T1204.003", "T1587.001", "T1588.001"]}
+{"Rule ID": 99613, "Level": 6, "Description": "MS Graph message: A phishing email has been detected. This is a true positive alert.", "MITRE IDs": ["T1566"]}
+{"Rule ID": 99701, "Level": 12, "Description": "Maltiverse: Alert Software $(threat.software.name) - Detected IoC $(threat.indicator.name) of type $(threat.indicator.type) with [$(threat.indicator.confidence)] that is related to $(threat.software.id)-$(threat.software.name) software known attack.", "MITRE IDs": ["$(threat.software.id)"]}
+{"Rule ID": 99836, "Level": 12, "Description": "AWS Security Hub - The S3 bucket used to store CloudTrail logs is publicly accessible.", "MITRE IDs": ["T1213", "T1119", "T1530"]}
+{"Rule ID": 99837, "Level": 12, "Description": "AWS Security Hub - CodeBuild Bitbucket source repository URL contains sensitive credentials.", "MITRE IDs": ["T1213.003"]}
+{"Rule ID": 99838, "Level": 12, "Description": "AWS Security Hub - CodeBuild project environment variable contain clear text credentials.", "MITRE IDs": ["T1552"]}
+{"Rule ID": 99844, "Level": 12, "Description": "AWS Security Hub - Elasticsearch domain is publicly accessible.", "MITRE IDs": ["T1530"]}
+{"Rule ID": 99846, "Level": 12, "Description": "AWS Security Hub - Hardware MFA not enabled for the root user.", "MITRE IDs": ["T1556.006"]}
+{"Rule ID": 99847, "Level": 12, "Description": "AWS Security Hub - MFA not enabled for the root user.", "MITRE IDs": ["T1556.006"]}
+{"Rule ID": 99848, "Level": 12, "Description": "AWS Security Hub - AWS KMS keys scheduled for deletion.", "MITRE IDs": ["T1485"]}
